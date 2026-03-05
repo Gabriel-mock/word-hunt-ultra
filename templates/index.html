@@ -1,1 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Word Hunt</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
 
+<body class="pink">
+
+<h1>Word Hunt</h1>
+
+<div class="controls">
+
+<select id="grid">
+<option value="4">4x4</option>
+<option value="5">5x5</option>
+<option value="6">6x6</option>
+</select>
+
+<button onclick="start()">New Game</button>
+
+<div id="timer">120</div>
+
+</div>
+
+<div id="board"></div>
+
+<div id="score">Score: 0</div>
+
+<h3>Words</h3>
+<div id="words"></div>
+
+<h3>Leaderboard</h3>
+<div id="leaderboard"></div>
+
+<script src="/static/script.js"></script>
+
+</body>
+</html>
