@@ -1,5 +1,5 @@
 body{
-font-family: Arial;
+font-family:Arial;
 text-align:center;
 background:black;
 color:white;
@@ -22,4 +22,24 @@ font-size:28px;
 cursor:pointer;
 background:#ff4da6;
 color:black;
+transition:transform .15s, box-shadow .15s;
+}
+
+.tile:hover{
+transform:scale(1.1);
+}
+
+.tile.active{
+outline:4px solid yellow;
+box-shadow:0 0 15px yellow;
+}
+
+#score{
+font-size:24px;
+margin-top:20px;
+transition:transform .15s;
+}
+
+#words{
+margin-top:20px;
 }
